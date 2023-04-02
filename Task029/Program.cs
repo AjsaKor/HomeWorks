@@ -9,6 +9,9 @@ return;
 }
 int[] arr = CreateArray(arraySize);
 PrintArray(arr);
+Console.Write("-> [");
+PrintArray(arr);
+Console.Write("]");
 
 int[] CreateArray(int arrayLength)
 {
@@ -25,6 +28,6 @@ void PrintArray(int[] array)
 {
 for(int i = 0; i < array.Length; i++)
 {
-Console.Write($"{array[i] }");
+Console.Write($"{array[i]}" + " ");
 }
 }
