@@ -51,15 +51,3 @@ void PrintMatrix(int[,] matrix)
     }
 }
 
-// int FindElement(int[,] matrix)
-// {
-//     if (row > matrix.GetLength(0) && column > matrix.GetLength(1))
-//     {
-//         Console.WriteLine("такого элемента нет");
-//     }
-//     else
-//     {
-//         Console.WriteLine($"Элемента {row} строки и {column} столбца: {matrix[row - 1, column - 1]}");
-//     }
-// }
-
